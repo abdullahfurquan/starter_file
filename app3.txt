@@ -1,0 +1,53 @@
+2022-09-14T02:57:57  Welcome, you are now connected to log-streaming service.
+
+Starting Log Tail -n 10 of existing logs ----
+/home/LogFiles/__lastCheckTime.txt  (https://eram.scm.azurewebsites.net/api/vfs/LogFiles/__lastCheckTime.txt)09/14/2022 02:38:44
+
+
+/home/LogFiles/kudu/trace/1e8b38d5b2bb-13c1ef16-ab20-4f24-ad01-915645f5330f.txt  (https://eram.scm.azurewebsites.net/api/vfs/LogFiles/kudu/trace/1e8b38d5b2bb-13c1ef16-ab20-4f24-ad01-915645f5330f.txt)
+2022-09-14T02:48:16  Startup Request, url: /api/deployments/141663123695794, method: PUT, type: request, pid: 68,1,5, ScmType: VSTSRM, SCM_DO_BUILD_DURING_DEPLOYMENT: True
+
+/home/LogFiles/kudu/trace/1e8b38d5b2bb-caea8480-075f-4297-a3ed-94723348dd38.txt  (https://eram.scm.azurewebsites.net/api/vfs/LogFiles/kudu/trace/1e8b38d5b2bb-caea8480-075f-4297-a3ed-94723348dd38.txt)
+2022-09-14T02:48:21    Outgoing response, type: response, statusCode: 404, statusText: NotFound
+
+/home/LogFiles/kudu/trace/60236b60d3fa-74e9802f-110f-43b0-a84a-4cc30c4d81e7.txt  (https://eram.scm.azurewebsites.net/api/vfs/LogFiles/kudu/trace/60236b60d3fa-74e9802f-110f-43b0-a84a-4cc30c4d81e7.txt)
+2022-09-14T02:35:05  Startup Request, url: /api/zipdeploy?isAsync=true&trackDeploymentProgress=true, method: POST, type: request, pid: 72,1,5, ScmType: None, SCM_DO_BUILD_DURING_DEPLOYMENT: True
+
+/home/LogFiles/2022_09_14_10-30-0-22_default_docker.log  (https://eram.scm.azurewebsites.net/api/vfs/LogFiles/2022_09_14_10-30-0-22_default_docker.log)
+2022-09-14T02:48:15.595882610Z Using packages from virtual environment antenv located at /tmp/8da95fb403d3e68/antenv.
+2022-09-14T02:48:15.595922810Z Updated PYTHONPATH to ':/opt/startup/app_logs:/opt/startup/code_profiler:/tmp/8da95fb403d3e68/antenv/lib/python3.7/site-packages'
+2022-09-14T02:48:16.612964943Z [2022-09-14 02:48:16 +0000] [61] [INFO] Starting gunicorn 20.1.0
+2022-09-14T02:48:16.637626453Z [2022-09-14 02:48:16 +0000] [61] [INFO] Listening at: http://0.0.0.0:8000 (61)
+2022-09-14T02:48:16.638139655Z [2022-09-14 02:48:16 +0000] [61] [INFO] Using worker: sync
+2022-09-14T02:48:16.643431179Z [2022-09-14 02:48:16 +0000] [66] [INFO] Booting worker with pid: 66
+2022-09-14T02:48:22.862950531Z 172.16.0.1 - - [14/Sep/2022:02:48:22 +0000] "GET /robots933456.txt HTTP/1.1" 404 207 "-" "HealthCheck/1.0"
+2022-09-14T02:53:49.656264336Z 172.16.0.1 - - [14/Sep/2022:02:53:49 +0000] "GET / HTTP/1.1" 200 41 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+
+/home/LogFiles/2022_09_14_10-30-0-22_docker.log  (https://eram.scm.azurewebsites.net/api/vfs/LogFiles/2022_09_14_10-30-0-22_docker.log)
+2022-09-14T02:47:34.178Z INFO  - docker run -d -p 7582:8000 --name eram_1_7fe2c739 -e WEBSITE_SITE_NAME=eram -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=eram.azurewebsites.net -e WEBSITE_INSTANCE_ID=81c17eb2af25d32f16ff655bd3f60781780c744b881911e20f886cb3c80cc7cd -e HTTP_LOGGING_ENABLED=1 -e WEBSITE_USE_DIAGNOSTIC_SERVER=False appsvc/python:3.7_20220315.5
+2022-09-14T02:47:38.105Z INFO  - Initiating warmup request to container eram_1_7fe2c739 for site eram
+2022-09-14T02:47:59.589Z INFO  - Container eram_1_7fe2c739 for site eram initialized successfully and is ready to serve requests.
+2022-09-14T02:47:59.697Z INFO  - Recycling container because of AppSettingsChange and isMainSite = True
+2022-09-14T02:47:59.783Z INFO  - Starting container for site
+2022-09-14T02:47:59.785Z INFO  - docker run -d -p 6242:8000 --name eram_2_be6849eb -e WEBSITE_SITE_NAME=eram -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=eram.azurewebsites.net -e WEBSITE_INSTANCE_ID=81c17eb2af25d32f16ff655bd3f60781780c744b881911e20f886cb3c80cc7cd -e HTTP_LOGGING_ENABLED=1 -e WEBSITE_USE_DIAGNOSTIC_SERVER=False appsvc/python:3.7_20220315.5
+2022-09-14T02:48:03.862Z INFO  - Initiating warmup request to container eram_2_be6849eb for site eram
+2022-09-14T02:48:22.861Z INFO  - Container eram_2_be6849eb for site eram initialized successfully and is ready to serve requests.
+
+/home/LogFiles/AppServiceAppLogs_Feature_Installer/startup_0.log  (https://eram.scm.azurewebsites.net/api/vfs/LogFiles/AppServiceAppLogs_Feature_Installer/startup_0.log)
+2022-09-14 02:39:38,398  [Thread-1  ] [DEBUG] : Did not find any previously bound socket
+2022-09-14 02:39:38,398  [MainThread] [DEBUG] : Initialized AppServiceAppLogging
+2022-09-14 02:39:44,232  [Thread-3  ] [DEBUG] : Waiting for the logs flag to be set
+2022-09-14 02:47:46,819  [MainThread] [DEBUG] : Initializating AppServiceAppLogging
+2022-09-14 02:47:46,821  [MainThread] [DEBUG] : Initialized AppServiceAppLogging
+2022-09-14 02:47:46,828  [Thread-1  ] [DEBUG] : Did not find any previously bound socket
+2022-09-14 02:48:16,626  [MainThread] [DEBUG] : Initializating AppServiceAppLogging
+2022-09-14 02:48:16,628  [MainThread] [DEBUG] : Initialized AppServiceAppLogging
+2022-09-14 02:48:16,629  [Thread-1  ] [DEBUG] : Did not find any previously bound socket
+2022-09-14 02:48:22,677  [Thread-3  ] [DEBUG] : Waiting for the logs flag to be set
+
+/home/LogFiles/CodeProfiler/81c17e_debug.log  (https://eram.scm.azurewebsites.net/api/vfs/LogFiles/CodeProfiler/81c17e_debug.log)[2022_09_14_02_48_22] [appsvc_profiler.installer] [INFO] Code Profiler Installer is starting up[2022_09_14_02_48_22] [appsvc_profiler.installer] [INFO] Cleaning up any existing status file which indicated signal handlers initialized status[2022_09_14_02_48_22] [appsvc_profiler.installer] [INFO] Attempting to delete the signal_handler status file for instance id 81c17eb2af25d32f16ff655bd3f60781780c744b881911e20f886cb3c80cc7cd[2022_09_14_02_48_22] [appsvc_profiler.installer] [INFO] successfully deleted the status file[2022_09_14_02_48_22] [appsvc_profiler.installer] [DEBUG] APPSETTING_WEBSITE_ENABLE_DEFAULT_CODE_PROFILER : None[2022_09_14_02_48_22] [appsvc_profiler.installer] [INFO] Attempting to install the default code profiler.[2022_09_14_02_48_22] [appsvc_profiler.installer] [DEBUG] viztracer would save traces to /tmp/81c17e_profiler_trace.json[2022_09_14_02_48_22] [appsvc_profiler.installer] [INFO] Successfully installed code profiler.[2022_09_14_02_48_22] [appsvc_profiler.installer] [INFO] Signal Handlers SIGUSR for needed code-profiler have been initialized for gunicorn process on instance 81c17eb2af25d32f16ff655bd3f60781780c744b881911e20f886cb3c80cc7cd[2022_09_14_02_48_22] [appsvc_profiler.installer] [DEBUG] Code Profiler Installer is exiting as installation is completed
+
+Ending Log Tail of existing logs ---
+Starting Live Log Stream ---
+
